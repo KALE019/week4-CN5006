@@ -1,0 +1,27 @@
+.emoji-counter, .toggle-mode {
+  margin: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  display: inline-block;
+}
+
+.emoji-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.emoji-button:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.18);
+}
+
+.emoji-img {
+  width: 32px;
+  height: 32px;
+}
